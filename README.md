@@ -1,3 +1,6 @@
+<img width="959" height="475" alt="Screenshot 2026-07-03 224304" src="https://github.com/user-attachments/assets/8eddf86d-994b-45a5-a512-640a3b2d6df1" />
+
+
 # SAIROBSS AI Core 🤖🛰️ | Distributed Cloud & Multi-Threaded Intelligent Agent
 
 The central cognitive processing engine and real-time state synchronization hub designed for the SAIROBSS robotic ecosystem. This repository contains the distributed AI architecture, low-latency audio execution pipelines, and a dual-UI synchronization layer that handles complex human-robot interaction loops.
@@ -37,10 +40,16 @@ Running real-time Speech-to-Text (STT) and text stream synthesis inside a web lo
 * Implemented a persistent conversational state management loop wrapped in an alert trigger cascade (`wake_beep.mp3`).
 * Isolated speech listening routines (`listen_record_transcribe`) from the main display threads, allowing users to talk seamlessly without interrupting state listeners.
 
+<img width="959" height="475" alt="Screenshot 2026-07-03 224452" src="https://github.com/user-attachments/assets/4b73664b-5780-4a29-bb87-1e7d88b320e4" />
+
+
 ### 2. Algorithmic Function Calling & Hardware Automation Intercepts
 Instead of using basic, brittle hardcoded keyword matching, the AI handles unstructured user intent and maps it to clean execution blocks using Groq function calls.
 * The system evaluates complex user queries, extracts operational JSON arguments, and updates Firebase nodes instantaneously.
 * **Automation Fallback:** Leveraged `PyAutoGUI` and `pywhatkit` to build localized automation bridges, translating linguistic intent into direct software-level macros, OS interactions, and scheduled communication dispatches.
+
+<img width="959" height="475" alt="Screenshot 2026-07-03 224330" src="https://github.com/user-attachments/assets/ca9fe0f1-8f82-4770-adb3-aff3c64c5ebd" />
+
 
 ### 3. Cross-Platform Dual-Frontend State Management
 Synchronizing a web interface and an Android application simultaneously without creating race conditions or infinite feedback loops requires strict data filtering.
